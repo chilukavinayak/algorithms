@@ -1,3 +1,5 @@
+package practice.algorithms.slidingwindow;
+
 import java.util.HashMap;
 
 public class MaxFruitCountOf2Types {
