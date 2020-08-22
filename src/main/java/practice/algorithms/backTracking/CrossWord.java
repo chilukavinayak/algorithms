@@ -37,6 +37,9 @@ public class CrossWord {
             return false;
         }
         for(int jj=0;jj<word.length();jj++){
+            if( j + jj >= grid[i].length )
+                return false;
+
             if(grid[i][j+jj] == '-' || grid[i][j+jj] == word.charAt(jj) )
                 continue;
             else
@@ -52,6 +55,9 @@ public class CrossWord {
             return false;
         }
         for(int ii=0;ii<word.length();ii++){
+            if( i + ii >= grid.length )
+                return false;
+
             if(grid[i+ii][j] == '-' || grid[i+ii][j] == word.charAt(ii) )
                 continue;
             else
