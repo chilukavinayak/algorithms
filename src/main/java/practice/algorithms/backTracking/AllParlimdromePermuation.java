@@ -25,7 +25,7 @@ package practice.algorithms.backTracking;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class AllParlimdrome {
+public class AllParlimdromePermuation {
 
     public static void generatepw(int cs, int ts, HashMap < Character, Integer > fmap, Character oddc, String asf) {
         if(cs > ts){
