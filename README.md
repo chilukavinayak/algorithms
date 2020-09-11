@@ -1,3 +1,3 @@
-# algorithms
+# algorithms and data structures
 I love coding...
 
